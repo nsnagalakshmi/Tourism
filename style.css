@@ -1,0 +1,85 @@
+*{
+    /* margin:0;
+    padding:0; */
+    background-color:#FFFFE0;
+}
+
+nav img{
+    height:150px;
+    width: 200px;
+    font-weight: bold;
+    border:black;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+    list-style-type:none;
+    width:60%;
+    font-size: large;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+ul li a:hover{
+    color:orangered;
+}
+nav ul li:hover{
+
+color:orangered;
+scale: 1.5;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px auto;
+    /* width:90%; */
+}
+
+.sign{
+    margin-right: 20px;
+    border-radius: 15px;
+    padding:3px 10px;
+    font-size: large;
+}
+.sign:hover{
+    color:orangered;
+    
+}
+.onemin video{
+    position: absolute; 
+  /* left: 0; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 70vh;
+  width: 95%;
+  
+  /* it should not come out of th div box */
+  overflow: hidden;
+ margin-left: 10px;
+ /* margin-right: 10px; */
+   
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    color: orangered;
+}
+.dausa a{
+    text-decoration: none;
+    color: orangered;
+    font-size: larger;
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+}
+.destination{
+    float: left;
+    margin-left: 10px;
+}
